@@ -1,0 +1,12 @@
+Cron:
+Build Triggers
+Build periodically
+* * * * *
+
+Build Steps
+Execute Windows batch command
+set PYTHONPATH = C:\Users\3J5652897\Documents\Python3.9\
+python C:\Users\3J5652897\Documents\practicePython\rand.py
+
+Start jenkins
+javaw -jar jenkins.war --httpPort=8080
